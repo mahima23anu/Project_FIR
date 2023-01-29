@@ -1,0 +1,39 @@
+.main{
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: linear-gradient(to bottom right,rgb(7, 7, 7),rgb(95, 94, 94));
+    width: 50%;
+    height: 50%;   
+    display: flex; 
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    text-justify: inter-word;
+    color: aliceblue;
+    border-radius: 20px;
+    
+}
+.content label{
+  font-size: 19px;
+  display: block;
+  padding: 10px;
+  color: aliceblue;
+}
+
+.btn{
+  width: 80px;
+  height: 25px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 50px;
+  gap: 350px;
+}
+
+
+
+html{
+  background-color: rgb(106, 105, 105);
+}
