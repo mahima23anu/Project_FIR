@@ -87,7 +87,7 @@ if ( networkData ) {
      console.log(newcontract); 
      console.log(AccountAddress[0])
      var check;
-     await newcontract.methods.launchFIR("", "", "", "", "", "", "", "", "")
+     await newcontract.methods.launchFIR(name,email,phone,phone,street,city,zip,witness,date,details)
      .send({from: AccountAddress[0], to: contractAddress, gasPrice: Web3.utils.toHex(10e9), gas: Web3.utils.toHex(0x186a0)})
     
 
